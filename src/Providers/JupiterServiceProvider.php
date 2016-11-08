@@ -29,8 +29,8 @@ class JupiterServiceProvider extends ServiceProvider
 		
 		$this->loadViewsFrom(__DIR__.'/../../resources/views', 'jupiter');
 		$this->publishes([__DIR__.'/../../resources/views' => resource_path('views/vendor/jupiter')],'views');
-		$this->publishes([base_path('/bower_components/jupiter-panel/images') => public_path('/vendor/jupiter/images')],'asset');
-		$this->publishes([base_path('/bower_components/jupiter-panel/dist') => public_path('/vendor/jupiter')],'asset');
+		$this->publishes([base_path('/vendor/munettt/jupiter-panel/images') => public_path('/vendor/jupiter/images')],'asset');
+		$this->publishes([base_path('/vendor/munettt/jupiter-panel/dist') => public_path('/vendor/jupiter')],'asset');
       
     }
 
