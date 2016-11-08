@@ -16,6 +16,6 @@
     },
     "require":
     {
-	"munettt/jupiter-panel": "dev-master"
+	"munettt/jupiter-panel": "^0.2.0"
     }
 }
