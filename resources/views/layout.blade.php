@@ -14,7 +14,7 @@
 
     <!-- Bootstrap core CSS -->
 	<link href="{{asset('vendor/jupiter/css/style.css')}}" rel="stylesheet">
-	<link href="{{asset('vendor/fonts/Ionicons/css/ionicons.min.css')}}" rel="stylesheet">
+	<link href="{{asset('vendor/jupiter/fonts/Ionicons/css/ionicons.min.css')}}" rel="stylesheet">
 
   </head>
 

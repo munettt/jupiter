@@ -15,3 +15,10 @@ Publish files
 ```bash
 php artisan vendor:publish --provider="Munettt\Jupiter\Providers\JupiterServiceProvider"
 ```
+
+View your dashboard at
+```bash
+http://YOURSITE/dashboard
+```
+
+This is only a sample. Feel free to do as you wish with it.
